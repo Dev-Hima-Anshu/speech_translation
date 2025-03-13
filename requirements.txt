@@ -1,0 +1,24 @@
+# Core Streamlit requirement
+streamlit==1.32.0
+
+# Audio processing and speech recognition
+speechrecognition==3.10.4
+pydub==0.25.1
+pyaudio==0.2.14  # Required for microphone input with speech_recognition
+numpy==1.26.4
+scipy==1.13.0
+
+# Translation
+googletrans==4.0.0-rc1
+
+# Text-to-speech
+gTTS==2.5.1
+
+# Visualization
+matplotlib==3.8.4
+
+# Basic Python utilities (usually included in Python but listing for completeness)
+Pillow==10.3.0  # For image processing if needed by matplotlib
+
+# Additional dependencies that might be required
+requests==2.31.0  # Used by googletrans and gTTS
